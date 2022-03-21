@@ -1,0 +1,158 @@
+body {
+    background: linear-gradient(to right, #ddd, #F22);
+    margin: 0;
+  font-family: 'Nunito';
+}
+
+.container {
+
+background:  #ECF4FF;
+margin: 42px;
+color: #1C1C1C;
+border-radius: 22px;
+box-shadow: 6px 6px 6px #0E1D2F;
+padding: 45px;
+
+}
+.perfil {
+    display: flex;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-foto {
+    border-radius: 460px;
+    max-height: 130px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a {
+    text-decoration: none;
+    color:#1C1C1C;
+}
+
+a:hover {
+    background-color:#3468A7;
+    transition: 4s;
+    cursor: pointer;
+}
+
+.title {
+   margin-left: 17px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+
+.title h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.projetos {
+  
+    display: flex;
+    list-style: none;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(230.65deg, #499 27.49%, #9CC8FC 83.19%);
+   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+   border-radius: 20px;
+   margin: 32px;
+   padding: 32px;
+
+
+ 
+}
+
+.redes {
+    display: flex;
+    font-weight: 700;
+    flex-direction: row;
+    list-style: none;
+ justify-content: space-between;
+
+}
+
+i {
+    padding: 9px;
+    
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#efeito:hover {
+    background-color: #1C1C1C;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.projetos-title {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.social-media{
+    font-weight: 700;
+}
+
+.tema button {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+   padding: 8px 16px;
+   background-color: #ECFF44;
+   border-radius: 100px;
+}
+
+ .dark {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    
+} 
+
+
+.dark .container {
+   
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD9tYg6_o2jwp6DeiizwylYBJyLHr3_9K7BQ&usqp=CAU"); */
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVhDAV_MZ3UJGCZ00zwaxzL7Dm7G1rh8I-eg&usqp=CAU"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #9CC8FC;
+}
+
+.dark .tema button {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: 2px solid #f7f7f7;
+}
+
+
+.dark .title {
+    color: #ECF4FF
+}
+
+.dark .projetos {
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD9tYg6_o2jwp6DeiizwylYBJyLHr3_9K7BQ&usqp=CAU");
+   background-size: 100%;
+   background-repeat: no-repeat;
+    color: #ffff;
+}
+
+.dark .estilo{
+    color:blue;
+}
